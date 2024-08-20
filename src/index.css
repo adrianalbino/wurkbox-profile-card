@@ -1,0 +1,611 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;800&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+body {
+  background-color: #fafafa;
+  height: 100vh;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 62.5%;
+  width: 100vw;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+}
+.logo-letter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Baloo Bhai, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.client-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar,
+.select-property {
+  background-color: #fff;
+  max-width: 100%;
+  height: 3rem;
+  padding: 9px 15px 9px 15px;
+  gap: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.client {
+  background-color: #fff;
+  max-width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 2rem 1rem 0rem;
+  padding-left: 3rem;
+  gap: 1rem;
+  font-size: 0.9rem;
+  justify-content: space-between;
+}
+
+.client h1 {
+  font-size: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.green-text {
+  color: #19cc76;
+}
+
+.yellow-text {
+  color: #9e7b00;
+}
+
+.orange-text {
+  color: rgba(255, 122, 0, 1);
+}
+
+.red-text {
+  color: rgba(226, 46, 46, 1);
+}
+
+.width-1 {
+  width: 1rem;
+}
+
+.tags-google {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 25px;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+  border-radius: 46px;
+  border: 1px #dce3e9 solid;
+  background: #fff;
+}
+
+.tags-vip {
+  font-size: 0.8rem;
+  background-color: #e1f3eb;
+  border-radius: 25px;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+.tags-finance-approved {
+  font-size: 0.8rem;
+  background-color: #fefbf0;
+  border-radius: 25px;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+
+.google {
+  font-size: 0.8rem;
+}
+
+.navbar-item {
+  display: flex;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.navbar-user-icon {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.navbar-icon {
+  cursor: pointer;
+}
+
+.navbar-button,
+.new-job-button,
+.actions-button,
+.actions-dropdown,
+.add-note-button,
+.open-map-button,
+.view-all-notes-button,
+.add-property {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px #f0f0f0;
+  min-height: 1rem;
+  padding: 13px 20px 13px 20px;
+  text-wrap: nowrap;
+  border: 1px solid rgba(240, 240, 240, 1);
+  cursor: pointer;
+}
+
+.view-all-notes-button,
+.add-property {
+  border: 1px #ddd solid;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-note-button {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.new-job-button {
+  background-color: #0e1e29;
+  color: #fff;
+}
+
+.actions-button {
+  background-color: #19cc76;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+}
+
+.open-map-button {
+  border-radius: 7px;
+  border: 0.609px #bcbdbd solid;
+  min-height: 0.1rem;
+  display: flex;
+  align-items: center;
+  height: 0.1rem;
+  padding: 10px 8px 10px 8px;
+  margin-left: 0.5rem;
+  box-shadow: 0px 2.435px 2.435px 0px rgba(0, 0, 0, 0.03);
+}
+.actions-dropdown {
+  height: 1.1rem;
+  border-radius: 0px 10px 10px 0px;
+  background: #17b669;
+  padding: 13px 13px 13px 13px;
+  border: none;
+}
+.navbar-left-section,
+.navbar-right-section,
+.client-left-section,
+.client-right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.client-left-section,
+.client-right-section {
+  gap: 1rem;
+}
+
+.select-property-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.select-property-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.card-information {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  padding: 1rem 3rem 1rem 3rem;
+  gap: 1rem;
+}
+
+.navbar-notification {
+  width: 1.7rem;
+  height: 1rem;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+.orange-notification {
+  background-color: rgba(255, 122, 0, 1);
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.indiv-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.8rem;
+  background-color: #fff;
+  padding: 1.3rem;
+  border-radius: 10px;
+  gap: 0.5rem;
+}
+
+.indiv-cards-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-notes,
+.properties-wrapper {
+  padding: 1rem 3rem 1rem 3rem;
+  min-height: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.properties-wrapper {
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.contact-container {
+  width: 75%;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  height: 100%;
+  margin-top: 1.5rem;
+  min-height: 20rem;
+}
+
+.contact-list {
+  width: 33%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.contact-information {
+  width: 66%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem 3rem 1rem 1rem;
+  box-sizing: border-box;
+}
+.section-headers {
+  font-weight: 700;
+}
+
+.notes-container {
+  width: 25%;
+}
+
+.notes {
+  border-radius: 10px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.faded-note {
+  position: relative;
+  max-height: 55%;
+  overflow: hidden;
+}
+
+.faded-note::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 72.33%);
+}
+.indiv-contact {
+  border-radius: 13px;
+  background: #fff;
+  margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.indiv-contact:hover {
+  background-color: #F9F9F9;
+}
+
+.additional-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 0.609px solid #bcbdbd;
+  margin: 0.5rem 1.5rem 1rem 1.5rem;
+  padding: 1rem;
+}
+
+.selected {
+  border: 1px #0094ff solid;
+}
+
+.indiv-contact-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-font {
+  font-size: 0.5rem;
+}
+
+.medium-font {
+  font-size: 0.8rem;
+}
+
+.half-big-font {
+  font-size: 0.9rem;
+}
+
+.big-font {
+  font-size: 1rem;
+}
+
+.bigger-font {
+  font-size: 1.2rem;
+}
+
+.grey-color {
+  color: rgba(134, 148, 158, 1);
+}
+
+.read-more {
+  color: rgba(148, 148, 148, 1);
+  display: inline;
+}
+
+.line-height {
+  line-height: 160%;
+}
+.contact-information {
+  padding: 1.5rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  margin-right: 3rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-property {
+  height: 4rem;
+  border-radius: 11px;
+  display: flex;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  justify-content: space-between;
+}
+
+.address-dropdown-container {
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 0px;
+  width: 28rem;
+  display: flex;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.properties-dropdown {
+  border: none;
+  background: none;
+  color: #000;
+  width: 100%;
+  outline: none;
+  cursor: default;
+}
+
+.edit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  border: 1px rgba(216, 216, 216, 1) solid;
+  cursor: pointer;
+}
+
+.add-property {
+  padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+  min-width: 7rem;
+}
+
+.contact-name-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.properties-details-wrapper {
+  min-height: 75vh;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.properties-contact-details {
+  display: flex;
+  gap: 2rem;
+}
+
+.properties-contact-details-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-sizer {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+.properties-tabs {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+.properties-indiv-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  min-height: 0.625rem;
+  width: fit-content;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.notification-number {
+  background-color: rgba(241, 241, 241, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.properties-job-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.properties-job-table table thead tr th:nth-child(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.properties-job-table table thead tr th:nth-child(9) {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.properties-job-table table thead tr th:nth-child(3) {
+  width: 30%;
+}
+
+.properties-job-table table {
+  border-collapse: collapse;
+}
+.properties-job-table table thead {
+  background-color: rgba(244, 247, 249, 1);
+}
+
+.properties-job-table table thead tr th {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;
+}
+
+.properties-job-table table tbody tr td {
+  padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(242, 242, 242, 1);
+}
+
+.properties-totals-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  color: rgba(54, 54, 54, 1);
+}
+
+.properties-totals {
+  display: flex;
+  gap: 1.5rem;
+}
