@@ -1,7 +1,7 @@
 import moneySendSVG from "../../assets/money-send.svg"
 import moneyReceiveSVG from "../../assets/money-receive.svg"
 import briefcaseSVG from "../../assets/briefcase.svg"
-import medalStarSVG from "../../assets/medalStar.svg"
+import medalStarSVG from "../../assets/medalstar.svg"
 import Card from "./Card"
 
 const CardInfos = () => {
