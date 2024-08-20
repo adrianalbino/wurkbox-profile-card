@@ -8,8 +8,8 @@ import Properties from "./components/Properties/Properties"
 const App = () => {
   return (
     <>
+      <Navbar />
       <main>
-        <Navbar />
         <Client />
         <CardInfos />
         <ContactNotes />
