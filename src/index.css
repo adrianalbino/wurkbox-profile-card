@@ -421,8 +421,11 @@ body {
   color: rgba(134, 148, 158, 1);
 }
 
-.read-more {
+.read-more, .dark-grey-text {
   color: rgba(148, 148, 148, 1);
+}
+
+.read-more {
   display: inline;
 }
 

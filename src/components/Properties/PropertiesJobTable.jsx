@@ -29,7 +29,7 @@ const PropertiesJobTable = () => {
               <td>$500.00</td>
               <td>$500.00</td>
               <td>$0.00</td>
-              <td>Canceled</td>
+              <td className="dark-grey-text">Canceled</td>
             </tr>
             <tr>
               <td>#461321</td>
