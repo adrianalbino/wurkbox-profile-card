@@ -8,7 +8,7 @@ const Properties = () => {
   return (
     <>
       <article className="properties-wrapper">
-        <h2 className="section-headers bigger-font">Properties</h2>
+        <h2 className="section-headers biggest-font">Properties</h2>
         <SelectProperty />
         <div className="properties-details-wrapper">
           <PropertiesContactDetails />

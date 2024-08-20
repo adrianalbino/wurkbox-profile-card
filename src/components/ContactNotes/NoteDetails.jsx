@@ -4,7 +4,7 @@ const NoteDetails = () => {
     <>
       <div className="notes-container">
         <div className="notes-header-container">
-          <h2 className="section-headers bigger-font">Notes</h2>
+          <h2 className="section-headers biggest-font">Notes</h2>
           <div className="add-note-button box-shadow">
             <img src={noteSVG} alt="note_svg" />
             <p className="medium-font">Add Note</p>

@@ -7,7 +7,7 @@ const ContactList = () => {
   return (
     <>
       <div className="contact-container">
-        <h2 className="section-headers bigger-font">Contacts</h2>
+        <h2 className="section-headers biggest-font">Contacts</h2>
         <div className="contacts">
           <div className="contact-list box-shadow">
             <ContactSelected name="LJ Hooker Casula" title="Primary Customer" />

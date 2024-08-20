@@ -417,6 +417,10 @@ body {
   font-size: 1.2rem;
 }
 
+.biggest-font {
+  font-size: 1.3rem;
+}
+
 .grey-color {
   color: rgba(134, 148, 158, 1);
 }
