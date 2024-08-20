@@ -12,24 +12,24 @@ const PropertiesTabs = () => {
           <p className="notification-number">1</p>
         </div>
         <div className="properties-indiv-tabs">
-          <p className="half-big-font bold">Pending Quotes</p>
+          <p className="half-big-font">Pending Quotes</p>
           <p className="notification-number">6</p>
         </div>
         <div className="properties-indiv-tabs">
-          <p className="half-big-font bold">Complaints</p>
+          <p className="half-big-font">Complaints</p>
           <p className="notification-number">1</p>
         </div>
         <div className="properties-indiv-tabs">
-          <p className="half-big-font bold">Callbacks</p>
+          <p className="half-big-font">Callbacks</p>
           <p className="notification-number">1</p>
         </div>
         <div className="properties-indiv-tabs">
           <img className="img-sizer" src={opaqueNotesSVG} alt="briefcase" />
-          <p className="half-big-font bold">Notes</p>
+          <p className="half-big-font">Notes</p>
         </div>
         <div className="properties-indiv-tabs">
           <img className="img-sizer" src={mediaSVG} alt="briefcase" />
-          <p className="half-big-font bold">Media</p>
+          <p className="half-big-font">Media</p>
           <p className="notification-number">1</p>
         </div>
       </div>
