@@ -20,11 +20,11 @@ const Client = () => {
         </div>
         <div className="client-right-section">
           <div className="new-job-button box-shadow">
-            <p>Add New Job</p>
+            <p className="bold">Add New Job</p>
           </div>
           <div className="actions">
             <div className="actions-button box-shadow">
-              <p>Actions</p>
+              <p className="bold">Actions</p>
             </div>
             <div className="actions-dropdown box-shadow">
               <img className="width-1" src={downArrowSVG} alt="down_arrow" />
