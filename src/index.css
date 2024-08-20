@@ -140,10 +140,15 @@ body {
 }
 
 .navbar-user-icon {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   border-radius: 50%;
   padding: 1rem;
+}
+
+.navbar-button-grouping {
+  display: flex;
+  gap: 0.7rem;
 }
 
 .navbar-icon {
